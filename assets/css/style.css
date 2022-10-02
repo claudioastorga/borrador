@@ -216,14 +216,17 @@ color: #1E88E5;
     margin-top: 20px;
     margin-left: 30px;
     font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+
+}
+#servicios  h2 span{
+    background-color: #1E88E5;
+    padding: 5px 5px;
+    margin-top: 5px;
+    font-size: 20px;
 }
 
-/*
-#servicios ::selection {
- background-color: black;
- color: white;
-}
-*/
 
 
 /* servicio 1 */
@@ -320,13 +323,13 @@ margin-bottom: 15px;
 
     margin: 30px 0;
 
-    background-color: #e3edf2;
+    background-color: whitesmoke;
     border-radius: 10px;
 
 }
 
 #servicios .textogeneral {
-    background-color: #e3edf2;
+    background-color: whitesmoke;
 
     display: grid;
     flex-direction: row;
@@ -340,14 +343,13 @@ margin-bottom: 15px;
 }
 
 #servicios .textotitulo{
-    background-color: #88aabf;
-    color: white;
+    background-color: whitesmoke;
     width: 380px;
     flex-basis: 450px;
     max-width: 550px;
     height: 100%;
     border-radius: 10px;
-    text-align: right;
+    text-align: left;
     padding-right: 25px;
     padding-bottom: 20px;
 
@@ -532,106 +534,58 @@ margin-bottom: 15px;
 #nosotros{
     width: 90%;
     margin: 0 auto;
+
 }
 
 #nosotros .seccion {
+
     margin-top: 20px;
     margin-left: 30px;
+    margin-bottom: 50px;
     font-weight: 600;
     
 }
 
-#nosotros .historia1{
-    background-color: white;
+/* seccion celeste */
+#carouselExampleFade {
+    width: 70%;
 
-    width: 100%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    margin: 40px 0;
-}
-
-#nosotros .textonosotros{
-    
-    flex-basis: 500px;
-    max-width: 700px;
-    flex-grow: 1;
-    margin: 0 20px;
-    padding: 20px;
-    text-align: justify;
-    font-weight: 700;
-}
-
-#nosotros .icono {
-    background-image: url(../img/icono2.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 180px;
-    height: 120px;
-
-    flex-basis: 200px;
-    max-width: 185px;
-    min-height: 150px;
-    flex-grow: 1;
-
-
-    margin: 30px 20px;
-    padding: 20px;
-
-
-
-}
-
-
-/* seccion nosotros fondo azul*/
-
-#nosotros2 {
-    width: 90%;
-    margin: 0 auto;
-}
-
-#nosotros2 .seccion {
-    margin-top: 20px;
-    margin-left: 30px;
-    font-weight: 600;
-    
-}
-
-
-#carruseltexto .carousel-inner{
-    width: 100%;
-    margin: 0 auto;
-    background-color: #88aabf;
-
     display: flex;
     justify-content: center;
-    align-items: center;
+
     border-radius: 10px;
-    height: 150;
+    height: 100%;
+    background-color: #a9d0dd;
+
+
 }
 
 
-#carruseltexto .lamina1{
-    width: 70%;
-    margin: 0 auto;
+
+#carouselExampleFade .carousel-inner{
+    width: 80%;
+
+
+}
+
+
+#carouselExampleFade h5{
     color: white;
+    text-align: justify;
     padding: 30px;
     text-indent: 20px;
+    font-weight: 700;
+    line-height: 30px;
+
 }
 
-#carruseltexto .lamina2{
-    width: 70%;
-    margin: 0 auto;
-    color: white;
-    padding: 30px;
-    text-indent: 20px;
-}
+
+
+
+
+
+
 
 /*secion perfiles*/
 
