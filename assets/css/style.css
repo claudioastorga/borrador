@@ -51,23 +51,18 @@ color: #1E88E5;
     width: 90%;
     margin: 0 auto;
    
-    margin-top: 50px;
+    margin-top: 70px;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
 }
-
 
 #carouselExampleDark .fotocarrusel1{
     background-image: url(../img/CIMcarrusel1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 40px 0;
 
-    border-radius: 30px 0;
-
-    display: flex;
-    align-items: flex-end;
     justify-content: center;
 
     width: 100%;
@@ -76,22 +71,15 @@ color: #1E88E5;
     flex-basis: 100%;
     max-width: 1200px;
     min-height: 330px;
-
 }
-
-
-
 
 #carouselExampleDark .fotocarrusel2{
     background-image: url(../img/CIMcarrusel2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 40px 0;
 
-    border-radius: 30px 0;
-
-    display: flex;
-    align-items: flex-end;
     justify-content: top;
 
     width: 100%;
@@ -108,11 +96,8 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: top;
 
-    border-radius: 30px 0;
+    border-radius: 40px 0;
 
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
 
     width: 100%;
     height: 380px;
@@ -222,12 +207,16 @@ color: #1E88E5;
 }
 #servicios  h2 span{
     background-color: #1E88E5;
-    padding: 5px 5px;
-    margin-top: 5px;
+    padding: 5px 12px;
     font-size: 20px;
+    border-radius: 12px 0;
 }
 
-
+#fondo {
+    width: 100%;
+    margin: 0 auto;
+    background-color: red;
+}
 
 /* servicio 1 */
 
@@ -280,7 +269,7 @@ color: #555658;
 margin-bottom: 15px;
 }
 
-#servicios .servicio1 footer  {
+#servicios  .servicio1 footer  {
     display: flex;
     justify-content: flex-end;    
 }
@@ -408,6 +397,22 @@ margin-bottom: 15px;
     background-color: white;
     padding: 5px 5px;
     margin-top: 5px;
+}
+
+#servicios .servicio5 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+
+    background-color: #BDD9F2;
+    border-radius: 10px;
+
 }
 
 #servicios .servicio2 , .servicio3 , .servicio4{
@@ -547,8 +552,8 @@ margin-bottom: 15px;
 }
 
 /* seccion celeste */
-#carouselExampleFade {
-    width: 70%;
+#carouselExampleInterval {
+    width: 85%;
 
     margin: 0 auto;
     display: flex;
@@ -556,27 +561,27 @@ margin-bottom: 15px;
 
     border-radius: 10px;
     height: 100%;
-    background-color: #a9d0dd;
+    background-color: #0a4da6;
 
 
 }
 
 
 
-#carouselExampleFade .carousel-inner{
+#carouselExampleInterval .carousel-inner{
     width: 80%;
 
 
 }
 
 
-#carouselExampleFade h5{
+#carouselExampleInterval h5{
     color: white;
     text-align: justify;
-    padding: 30px;
-    text-indent: 20px;
+    padding: 50px 30px;
+    text-indent: 30px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 
@@ -606,8 +611,7 @@ margin-bottom: 15px;
 
 
 #perfiles .perfil123{
-    background-color: #BDD9F2
-    ;
+    background-color: #BDD9F2;
     width: 100%;
     margin: 0 auto;
     padding: 30px 0 0 0;
@@ -865,65 +869,7 @@ border-radius: 10px;
     content: texto;
 }
 
-/* azul*/
-#noticias .nosotrosazul{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
-    margin: 30px 0;
-
-    background-color: #030a8c;
-    border-radius: 10px;
-}
-#noticias .textoazul{
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 40px;
-    color: white;
-    padding: 50px 30px;
-    text-align: justify;
-    text-indent: 30px;
-    margin-left: 50px;
-}
-#noticias .cuadroazul{
-    display: grid;
-    flex-direction: row;
-    align-items: center;
-    background-color: #88aabf;
-    width: 380px;
-    height: 100%;
-
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 30vh;
-    border-radius: 10px;
-    
-}
-
-#noticias .botonazul{
-    background-color: #88aabf;
-    border: 2px solid #030a8c ;
-    color: #030a8c;
-    border-radius: 0px;
-    margin-bottom: 15px;
-    padding: 5px 25px;
-    font-weight: 600;   
-    margin: 15px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    align-items: center;
-
-
-}
 
 
 
