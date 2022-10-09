@@ -477,6 +477,10 @@ margin-bottom: 15px;
     max-width: 550px;
     min-height: 280px;
     border-radius: 10px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 #servicios .foto3{
@@ -536,17 +540,17 @@ margin-bottom: 15px;
 /* texto en foto */
 
 #servicios .servicio2 h4 {
-    margin-top: 20px;
-    margin-left: 30px;
     font-weight: 600;
     color: white;
     text-transform: uppercase;
+    display: flex;
+    align-items:center;
 
 }
 #servicios .servicio2 h4 span{
     background-color: #030a8c;
     padding: 5px 12px;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 12px 0;
 }
 
