@@ -539,7 +539,7 @@ margin-bottom: 15px;
 
 /* texto en foto */
 
-#servicios .servicio2 h4 {
+#servicios .servicio2   h4 {
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -547,7 +547,10 @@ margin-bottom: 15px;
     align-items:center;
 
 }
-#servicios .servicio2 h4 span{
+
+
+
+#servicios .servicio2 span{
     background-color: #030a8c;
     padding: 5px 12px;
     font-size: 16px;
@@ -645,11 +648,10 @@ margin-bottom: 15px;
     
 
 #perfiles .detalle  ul{
-list-style: square;
-font-size: 16px;
+    list-style: square;
+    font-size: 16px;
 
-
-    }
+}
 
 #perfiles .perfil123 .perfil1{
     background-image: url(../img/Alicia\(1\).jpg);
@@ -664,11 +666,7 @@ font-size: 16px;
     flex-basis: 260px;
     max-width: 300px;
     flex-grow: 1;
-
 }
-
-
-
 
 #perfiles .perfil123 .perfil2{
     background-image: url(../img/perfil2.jpg);
@@ -703,13 +701,17 @@ font-size: 16px;
     background-color: #e3edf2;
     padding: 10px;
     border-radius: 10px;
-    margin-bottom: 30px;
 
-    flex-basis: 260px;
-    max-width: 260px;
+    flex-basis: 270px;
+    max-width: 270px;
     flex-grow: 1;
+    margin-bottom: 30px;
 }
 
+
+#perfiles .botonderecha{
+    text-align: right;
+}
 
 #perfiles .detalle h5{
     padding: 5px;
@@ -717,7 +719,15 @@ font-size: 16px;
     text-align: center;
 }
 
-
+#perfiles .botonperfil{
+    background-color: #e3edf2;
+    border: 2px solid #1E88E5 ;
+    color: #1E88E5;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-weight: 600;   
+    font-size: 14px;
+}
 
 /* seccion vinculos */
 @keyframes scroll{
@@ -861,8 +871,6 @@ border-radius: 10px;
 #noticias  h5{
     margin-top: 15px;
 }
-
-
 
 
 #noticias .btnnoticias{
@@ -1010,6 +1018,7 @@ border-radius: 10px;
 #piedepagina{
         width: 100%;
         margin: 0 auto;
+        display: flex;
         justify-content: space-between;
 
         background-color: #030a8c;
@@ -1017,39 +1026,41 @@ border-radius: 10px;
         padding: 70px 0 ;
 
     }
-#pidepagina .container{
-    max-width: 1170px;
-    margin: auto;
-}
+
 
 
     #piedepagina .row{
+        width: 100%;
 
-     display: flex;
      flex-wrap: wrap;
+     display: flex;
+     justify-content: space-between;
         
     }
        
     #piedepagina ul{
-    list-style: none;
-    }
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;    }
 
     #piedepagina .footer-col{
-    width: 40%;
-    padding: 0 15px;
-           
+    width: 20%;
+    min-width: 180px;
+    gap: 20px;
+    padding: 0 20px;
+    margin: 20px;           
     }
 
     #piedepagina .footer-col h4{
 
     font-weight: 600;
-    text-transform: capitalize;
     margin-bottom: 30px;
-    position: relative;
              
          }
 
-    #piedepagina .footer-col ul li a{    
+    #piedepagina .footer-col ul  a{    
+        font-weight: 600;
     margin-bottom: 10px;
     text-decoration: none;
     color: white;
@@ -1058,14 +1069,33 @@ border-radius: 10px;
     }
 
     #piedepagina .footer-col ul li :hover{    
-    color: #88aabf;
+    color: #f2b90c;
     padding-left: 10px;   
     font-weight: 600;
    
-                       
+                 
+    
         }
        
-   
+   #piedepagina .logoblanco{
+    background-image: url(../img/CIMlogo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    
+
+    flex-basis: 250px;
+    max-width: 300px;
+    flex-grow: 1;
+
+    
+
+    margin: 30px;
+    padding: 20px;
+
+   }
 
 
 
