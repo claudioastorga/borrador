@@ -188,6 +188,7 @@ color: #1E88E5;
     text-align: justify;
     text-indent: 25px;
     border-radius: 10px;
+    font-weight: 600;
 
 }
 
@@ -201,17 +202,10 @@ color: #1E88E5;
 #servicios .seccion {
     margin-top: 20px;
     margin-left: 30px;
+    margin-bottom: 50px;
     font-weight: 600;
-    color: white;
-    text-transform: uppercase;
+}
 
-}
-#servicios  h2 span{
-    background-color: #1E88E5;
-    padding: 5px 12px;
-    font-size: 20px;
-    border-radius: 12px 0;
-}
 
 #fondo {
     width: 100%;
@@ -253,7 +247,7 @@ color: #1E88E5;
 }
 
 
-#servicios .texto1{
+#servicios .texto1  {
     display: grid;
     flex-direction: row;
     justify-content: flex-start;
@@ -262,13 +256,30 @@ color: #1E88E5;
     flex-grow: 1;
     margin: 0 25px;
     text-align: justify;
-    text-indent: 25px;
 }
 
-#servicios .subtitulo{
-font-weight: 700;
-color: #555658;
-margin-bottom: 15px;
+  
+  #servicios .servicio1  .subtitulo {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    display: flex;
+    align-items:center;
+}
+
+#servicios .servicio1   span{
+    background-color: #f2b90c;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+#servicios .servicio1 h6{
+    margin-top: 10px;
 }
 
 #servicios  .servicio1 footer  {
@@ -294,16 +305,11 @@ margin-bottom: 15px;
     color: white;
 }
 
-#servicios .subtitulo2{
-    font-weight: bolder;
-    color: #555658;
-    margin-bottom: 15px;
-    font-size: 14px;
-    }
 
-/* servicios para profesionales titulo  */
 
-#servicios .servicioprofesionales {
+/* servicio 2   */
+
+#servicios .servicio2 {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -314,49 +320,56 @@ margin-bottom: 15px;
 
     margin: 30px 0;
 
-    background-color: whitesmoke;
+    background-color: #c5e0fb;
     border-radius: 10px;
 
 }
 
-#servicios .textogeneral {
-    background-color: whitesmoke;
-
+#servicios .texto2  {
     display: grid;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-basis: 500px;
     max-width: 600px;
     flex-grow: 1;
     margin: 0 25px;
     text-align: justify;
-
 }
 
-#servicios .textotitulo{
-    background-color: whitesmoke;
-    width: 380px;
-    flex-basis: 450px;
-    max-width: 550px;
-    height: 100%;
-    border-radius: 10px;
-    text-align: left;
-    padding-right: 25px;
-    padding-bottom: 20px;
-
+#servicios .servicio2  .subtitulo {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
 }
-#servicios  .servicio5 footer  {
+
+#servicios .servicio2   span{
+    background-color: #1E88E5;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+#servicios .servicio2 h6{
+    margin-top: 10px;
+}
+
+#servicios .servicio2 footer{
+    margin-bottom: 15px;
+}
+
+#servicios  .servicio2 footer  {
     display: flex;
     justify-content: flex-end;    
 }
 
 
 
-
-
-
-
-/* servicio 2 */
+/* servicio 2 desgloce */
 
 #servicios .boton2{
     background-color: #1E88E5;
@@ -383,7 +396,7 @@ margin-bottom: 15px;
 
 }
 
-#servicios .servicio2 , .servicio3 , .servicio4  ,  footer  { /* agregar servico 3 y 4 */
+#servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { /* agregar servico 3 y 4 */
     display: flex;
     justify-content: space-around;    
 }
@@ -394,50 +407,14 @@ margin-bottom: 15px;
 }
 
 
-#servicios  h3 {
+#servicios  .servicio2a  , .servicio2b , .servicio2c  ,   h3 {
     margin-top: 20px;
     font-weight: 600;
     }
 
-#servicios  h6 {
-    margin-top: 15px;
-    font-weight: 500;
-    text-indent: 25px;
-    }
-    
-#servicios  h6 span{
-    background-color: white;
-    padding: 5px 5px;
-    margin-top: 5px;
-}
-/* atra carda*/
-#servicios .servicio5 {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 30px 0;
-
-    background-color: #BDD9F2;
-    border-radius: 10px;
-
-}
-#servicios .claudio{
-    display: flex;
-    justify-content: center;
-}
 
 
-#servicios .claudio .texto2{
-    justify-content: center;
-}
-
-
-#servicios .servicio2 , .servicio3 , .servicio4{
+#servicios .servicio2a , .servicio2b , .servicio2c{
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -453,7 +430,7 @@ margin-bottom: 15px;
 
 }
 
-#servicios .texto2 , .texto3 , .texto4{
+#servicios .texto2a , .texto2b , .texto2c{
     display: grid;
     flex-direction: row;
     justify-content: space-between;
@@ -497,6 +474,10 @@ margin-bottom: 15px;
     min-height: 280px;
     border-radius: 10px;
 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
 }
 
 
@@ -514,10 +495,11 @@ margin-bottom: 15px;
     min-height: 280px;
     border-radius: 10px;
 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
 }
-
-
-
 
 #servicios .requisitos{
     font-weight: 600;
@@ -531,26 +513,17 @@ margin-bottom: 15px;
 }
 
 
-
-
-
-
-
-
 /* texto en foto */
 
-#servicios .servicio2   h4 {
+#servicios .servicio2a  h4 {
     font-weight: 600;
     color: white;
     text-transform: uppercase;
     display: flex;
     align-items:center;
-
 }
 
-
-
-#servicios .servicio2 span{
+#servicios .servicio2a      span{
     background-color: #030a8c;
     padding: 5px 12px;
     font-size: 16px;
@@ -558,7 +531,34 @@ margin-bottom: 15px;
 }
 
 
+#servicios .servicio2b h4 {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items:center;
+}
 
+#servicios .servicio2b  span{
+    background-color: #030a8c;
+    padding: 5px 12px;
+    font-size: 16px;
+    border-radius: 12px 0;
+}
+#servicios .servicio2c h4 {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items:center;
+}
+
+#servicios .servicio2c  span{
+    background-color: #030a8c;
+    padding: 5px 12px;
+    font-size: 16px;
+    border-radius: 12px 0;
+}
 
 /* seccion nosotros */
 
@@ -579,7 +579,7 @@ margin-bottom: 15px;
 
 /* seccion azul */
 #carouselExampleInterval {
-    width: 85%;
+    width: 80%;
 
     margin: 0 auto;
     display: flex;
@@ -588,6 +588,9 @@ margin-bottom: 15px;
     border-radius: 10px;
     height: 100%;
     background-color: #0a4da6;
+
+    min-width: 380px;
+
 
 
 }
@@ -669,7 +672,7 @@ margin-bottom: 15px;
 }
 
 #perfiles .perfil123 .perfil2{
-    background-image: url(../img/perfil2.jpg);
+    background-image: url(../img/Daniela.jpg);
     background-size: cover;
     width: 260px;
     height: 260px;
@@ -724,10 +727,15 @@ margin-bottom: 15px;
     border: 2px solid #1E88E5 ;
     color: #1E88E5;
     border-radius: 7px;
-    padding: 5px 10px;
+    padding: 3px 7px;
     font-weight: 600;   
     font-size: 14px;
 }
+
+
+
+
+
 
 /* seccion vinculos */
 @keyframes scroll{
@@ -737,39 +745,39 @@ margin-bottom: 15px;
     100%{
         transform: translateX(calc(-250px *3));
     }
-
 }
 
-.slider{
-    height: 100px;
-    margin: auto;
+#vinculos .slider{
+    height: auto;
     overflow: hidden;
     position: relative;
-    width: auto;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+
+    min-width: 380px;
+
 }
-.slider .slide-track{
+
+#vinculos .slider .slide-track{
     animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px * 7 );
-    margin-top: 30px;
+}
 
+#vinculos .slide{
+    padding: 10px;
 }
-.slider .slide{
-    height: 100px;
-    width: 250px;
-}
+
+
 
 #vinculos{
 width: 90%;
 margin: 0 auto;
 }
 
-#vinculos .slider{
-width: 50%;
-margin: 0 auto;
-background-color: white;
-border-radius: 10px;
-}
+
 
 #vinculos .seccion {
     margin-top: 50px;
@@ -784,6 +792,8 @@ border-radius: 10px;
     padding: 30px;
     text-align: justify;
     margin-top: 30px;
+    text-indent: 25px;
+
 }
 
 /* noticia */
@@ -1078,11 +1088,11 @@ border-radius: 10px;
         }
        
    #piedepagina .logoblanco{
-    background-image: url(../img/CIMlogo.svg);
+    background-image: url(../img/CIMlogoblanco.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
-    height: 60px;
+    height: 65px;
     display: flex;
     
 
