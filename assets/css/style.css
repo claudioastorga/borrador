@@ -136,9 +136,12 @@ object-fit: cover;
 }
 #baner .frase{
     color: white;
-    font-weight: 700;
+    font-weight: 800;
     text-shadow: 1px 1px 1px #0d120e;
     padding:  20px 0;
+    font-style: bolder;
+
+    
 }
 #baner h4 {
     color: white;
@@ -148,7 +151,7 @@ object-fit: cover;
 #baner .frase :hover{
     transform: scale(1.05);
     transition: all 300ms;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 #baner .frase .frase1 {
@@ -229,11 +232,10 @@ background: linear-gradient(to bottom right,#0bb656, #538c51);
 }
 #baner2 h3 {
     color: white;
-    font-weight: 700;
+    font-weight: 800;
     text-shadow: 1px 1px 1px #0d120e;
 }
 #baner2 h6 {
-    color: #555658;
     color: black;
     font-weight: 800;
     padding: 0px;
