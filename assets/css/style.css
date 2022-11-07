@@ -12,6 +12,58 @@ body{
     background-color: #0d120e;
 }
 
+
+/* barra navegacion*/
+
+#barranavegacion{
+    font-family: 'PF Beau Sans Pro';
+    color: white;
+    font-weight: 600;
+}
+#barranavegacion {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#barranavegacion .nombrelogo {
+    color: #b3d326;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px;
+    font-style: oblique;
+}
+
+.logo{
+    width: 20%;
+    justify-content: flex-start;
+}
+#menu  {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#barranavegacion .categorias  {
+    font-weight: 600;
+    text-decoration: none;
+    gap: 20px;
+    font-family: 'PF Beau Sans Pro';
+    color: white;
+}
+
+#barranavegacion .nombre {
+    font-weight: 600;  
+    color: white;
+}
+
+#barranavegacion .categorias :hover {
+    font-weight: 600;  
+    color: #b3d326;
+}
+
+
+/* servicios*/
+
 #servicios{
     width: 85%;
     margin: 0 auto;
@@ -57,6 +109,7 @@ padding: 0px;
     margin-bottom: 5px;
 }
 
+/* servicios*/
 #baner {
     width: 85%;
     margin: 0 auto;
@@ -109,7 +162,7 @@ padding: 0px;
 }
 
 #baner .datos{
-    background: linear-gradient(to bottom right,#0bb656, #538c51);
+   
     width: auto;
     height: auto ;
     margin:  0;
@@ -133,6 +186,7 @@ padding: 0px;
 }
 .prueba{ 
 background: linear-gradient(to bottom right,#d3f36b, #b3d326);
+background: linear-gradient(to bottom right,#0bb656, #538c51);
 
 }
 
@@ -141,6 +195,10 @@ background: linear-gradient(to bottom right,#d3f36b, #b3d326);
     width: 85%;
     margin: 0 auto;
 }
+
+
+/* baner 2*/
+
 #baner2 {
     width: 85%;
     margin: 0 auto;
@@ -164,10 +222,11 @@ background: linear-gradient(to bottom right,#d3f36b, #b3d326);
 #baner2 h3 {
     color: white;
     font-weight: 700;
-    text-shadow: 2px 2px 2px #555658;
+    text-shadow: 1px 1px 1px #0d120e;
 }
 #baner2 h6 {
     color: #555658;
+    color: black;
     font-weight: 800;
     padding: 0px;
     text-transform: uppercase;
