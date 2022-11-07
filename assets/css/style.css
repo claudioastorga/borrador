@@ -100,7 +100,7 @@ padding: 0px;
 #servicios .card img{
     background-size: cover;
     width: auto;
-height: 250px;
+height: 260px;
 object-fit: cover;
     transition: all 300ms;
 }
@@ -137,13 +137,13 @@ object-fit: cover;
 #baner .frase{
     color: white;
     font-weight: 700;
-    text-shadow: 2px 1px 1px #555658;
+    text-shadow: 1px 1px 1px #0d120e;
     padding:  20px 0;
 }
 #baner h4 {
     color: white;
     font-weight: 700;
-    text-shadow: 2px 1px 1px #555658;
+    text-shadow: 1px 1px 1px #0d120e;
 }
 #baner .frase :hover{
     transform: scale(1.05);
