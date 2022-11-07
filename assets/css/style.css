@@ -1,1111 +1,177 @@
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: whitesmoke;
-
-}
-/* barra navegacion*/
-
-#barranavegacion{
-    font-family: 'Source Sans Pro', sans-serif;
-color: black;}
-
-
-#barranavegacion {
-    width: 100%;
-    margin: 0 auto;
-    background-color: whitesmoke;
-
-}
-.logo{
-width: 20%;
-justify-content: flex-start;
-
-}
-#menu  {
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;
-
-}
-
-
-#barranavegacion .categorias {
-    font-weight: 600;
-    text-decoration: none;
-    gap: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: black;
+@font-face {
+    font-family: 'PF Beau Sans Pro';
+    src: local('PF Beau Sans Pro Light'), local('PF-Beau-Sans-Pro-Light'),
+        url('PFBeauSansPro-Light.woff2') format('woff2'),
+        url('PFBeauSansPro-Light.woff') format('woff'),
+        url('PFBeauSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
   }
 
-#barranavegacion .categorias :hover {
-font-weight: 600;  
-color: #1E88E5;
-
+body{
+    background-color: #0d120e;
 }
 
-
-
-/* carrusel*/
-#carouselExampleDark{
- 
-    width: 90%;
+#servicios{
+    width: 85%;
     margin: 0 auto;
-   
-    margin-top: 70px;
-    align-items: center;
-    justify-content: center;
+    padding: 100px 0;
+    font-family: 'PF Beau Sans Pro';
 }
 
-#carouselExampleDark .fotocarrusel1{
-    background-image: url(../img/CIMcarrusel1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 40px 0;
-
-    justify-content: center;
-
-    width: 100%;
-    height: 380px;
-
-    flex-basis: 100%;
-    max-width: 1200px;
-    min-height: 330px;
+#servicios .card{
+    background-color: transparent;
 }
 
-#carouselExampleDark .fotocarrusel2{
-    background-image: url(../img/CIMcarrusel2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 40px 0;
-
-    justify-content: top;
-
-    width: 100%;
-    height: 380px;
-
-    flex-basis: 100%;
-    max-width: 1200px;
-    min-height: 350px;
-
-}
-#carouselExampleDark .fotocarrusel3{
-    background-image: url(../img/CIMcarrusel3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-
-    border-radius: 40px 0;
-
-
-    width: 100%;
-    height: 380px;
-
-    flex-basis: 100%;
-    max-width: 1200px;
-    min-height: 350px;
-
-}
-
-
-#carouselExampleDark .textocarrusel{
-    font-style: oblique;
-    color: white;
-    text-shadow: 2px 2px 2px #555658;
-    align-content: center;
-    font-weight: 600;
-
-}
-#carouselExampleDark p{
-    font-style: oblique;
-    color: white;
-    text-shadow: 2px 2px 2px #555658;
-    align-content: center;
-    font-weight: 500;
-
-}
-
-
-
-/* seccion presentacion */
-
-
-
-#presentacion{
-    width: 90%;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 10px;
-}
-
-
-
-#presentacion .presentacion1{
-    
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    margin: 40px 0;
-}
-
-
-
-#presentacion .logo {
-    background-image: url(../img/CIMlogo.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 255px;
-    height: 70px;
-
-    flex-basis: 500px;
-    max-width: 330px;
-    min-width: 220px;
-    min-height: 70px;
-
-    flex-grow: 1;
-
-    margin: 30px 10px;
-    padding: 20px;
-
-}
-
-#presentacion .textopresentacion{
-    background-color: whitesmoke;
-
-    flex-basis: 400px;
-    max-width: 500px;
-    flex-grow: 1;
-    margin: 30px 20px;
-    padding: 20px;
-    text-align: justify;
-    text-indent: 25px;
-    border-radius: 10px;
-    font-weight: 600;
-
-}
-
-/*servicios */
-
-#servicios {
-    width: 90%;
-    margin: 0 auto;
-}
-
-#servicios .seccion {
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    font-weight: 600;
-}
-
-
-#fondo {
-    width: 100%;
-    margin: 0 auto;
-    background-color: red;
-}
-
-/* servicio 1 */
-
-#servicios .servicio1{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 40px 0 30px 0;
-
-    background-color: #FFF7DB;
-    border-radius: 10px;
-
-}
-
-#servicios .foto1 {
-    background-image: url(../img/CIMservicio1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 380px;
-    height: 280px;
-
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 280px;
-    border-radius: 10px;
-}
-
-
-#servicios .texto1  {
-    display: grid;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 25px;
-    text-align: justify;
-}
-
-  
-  #servicios .servicio1  .subtitulo {
-    margin-top: 20px;
-    margin-left: 0px;
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-
-    display: flex;
-    align-items:center;
-}
-
-#servicios .servicio1   span{
-    background-color: #f2b90c;
-    padding: 5px 12px;
-    font-size: 14px;
-    border-radius: 12px 0;
-}
-
-#servicios .servicio1 h6{
-    margin-top: 10px;
-}
-
-#servicios  .servicio1 footer  {
-    display: flex;
-    justify-content: flex-end;    
-}
-
-#servicios .boton1{
-    background-color: #fec768;
-    color: white;
-    font-weight: 600;
+#servicios .card-body {
+    background-color: #b3d326;
     border-radius: 5px;
-    border: none;
-    padding: 5px 25px;
-    transition: .3s ease all;
-    font-weight: bold;
-    margin: 15px 20px;
-
+    text-align: left;
 }
 
-#servicios .color  :hover{
-    background-color: #f2b90c;
+#servicios .card-title{
+font-weight: 700;
+padding: 0px;
+}
+
+#servicios .card :hover {
+    background-color: #0bb656;
     color: white;
+    font-weight: 800;
 }
 
-
-
-/* servicio 2   */
-
-#servicios .servicio2 {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 30px 0;
-
-    background-color: #c5e0fb;
-    border-radius: 10px;
-
-}
-
-#servicios .texto2  {
-    display: grid;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 25px;
-    text-align: justify;
-}
-
-#servicios .servicio2  .subtitulo {
-    margin-top: 20px;
-    margin-left: 0px;
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: flex;
-    align-items:center;
-}
-
-#servicios .servicio2   span{
-    background-color: #1E88E5;
-    padding: 5px 12px;
-    font-size: 14px;
-    border-radius: 12px 0;
-}
-
-#servicios .servicio2 h6{
-    margin-top: 10px;
-}
-
-#servicios .servicio2 footer{
-    margin-bottom: 15px;
-}
-
-#servicios  .servicio2 footer  {
-    display: flex;
-    justify-content: flex-end;    
-}
-
-
-
-/* servicio 2 desgloce */
-
-#servicios .boton2{
-    background-color: #1E88E5;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    border: none;
-    padding: 5px 25px;
-    font-weight: 600;   
-    margin: 15px 20px;
-
-}
-
-#servicios .boton3{
-    background-color: #e3edf2;
-    border: 2px solid #1E88E5 ;
-    color: #1E88E5;
-    border-radius: 7px;
-    margin-bottom: 15px;
-    padding: 5px 25px;
-    font-weight: 600;   
-    margin: 15px 20px;
-    display: inline-block;
-
-}
-
-#servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { /* agregar servico 3 y 4 */
-    display: flex;
-    justify-content: space-around;    
-}
-
-#servicios .color2  :hover{
-    background-color: #0a4da6;
-    color: white;
-}
-
-
-#servicios  .servicio2a  , .servicio2b , .servicio2c  ,   h3 {
-    margin-top: 20px;
-    font-weight: 600;
-    }
-
-
-
-#servicios .servicio2a , .servicio2b , .servicio2c{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 30px 0;
-
-    background-color: #e3edf2;
-    border-radius: 10px;
-
-}
-
-#servicios .texto2a , .texto2b , .texto2c{
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 25px;
-    text-align: justify;
-}
-
-#servicios .foto2 {
-    background-image: url(../img/CIMcarrusel3.jpg);
+#servicios .cards .servicio1{
+    background-image: url(../img/produccion.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    
-    width: 380px;
-    height: 280px;
-
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 280px;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-#servicios .foto3{
-    background-image: url(../img/CIMservicio3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 380px;
-    height: 280px;
-
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 280px;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-}
-
-
-#servicios .foto4{
-    background-image: url(../img/CIMservicio3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 380px;
-    height: 280px;
-
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 280px;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-}
-
-#servicios .requisitos{
-    font-weight: 600;
-    list-style: none;
-}
-
-
-#servicios  .modal-title{
-    font-weight: 600;
-
-}
-
-
-/* texto en foto */
-
-#servicios .servicio2a  h4 {
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    align-items:center;
-}
-
-#servicios .servicio2a      span{
-    background-color: #030a8c;
-    padding: 5px 12px;
-    font-size: 16px;
-    border-radius: 12px 0;
-}
-
-
-#servicios .servicio2b h4 {
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    align-items:center;
-}
-
-#servicios .servicio2b  span{
-    background-color: #030a8c;
-    padding: 5px 12px;
-    font-size: 16px;
-    border-radius: 12px 0;
-}
-#servicios .servicio2c h4 {
-    font-weight: 600;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    align-items:center;
-}
-
-#servicios .servicio2c  span{
-    background-color: #030a8c;
-    padding: 5px 12px;
-    font-size: 16px;
-    border-radius: 12px 0;
-}
-
-/* seccion nosotros */
-
-#nosotros{
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-#nosotros .seccion {
-
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    font-weight: 600;
-    
-}
-
-/* seccion azul */
-#carouselExampleInterval {
-    width: 80%;
-
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-
-    border-radius: 10px;
-    height: 100%;
-    background-color: #0a4da6;
-
-    min-width: 380px;
-
-
-
-}
-
-
-
-#carouselExampleInterval .carousel-inner{
-    width: 80%;
-
-
-}
-
-
-#carouselExampleInterval h5{
-    color: white;
-    text-align: justify;
-    padding: 50px 30px;
-    text-indent: 30px;
-    font-weight: 700;
-    line-height: 40px;
-
-}
-
-
-
-
-
-
-
-
-/*secion perfiles*/
-
-#perfiles {
-    width: 90%;
-    margin: 0 auto;
-}
-
-#perfiles .seccion {
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
-#perfiles .perfil123{
-    background-color: #BDD9F2;
-    width: 100%;
-    margin: 0 auto;
-    padding: 30px 0 0 0;
-    border-radius: 10px;
-    max-width: 1200px;
-    min-height: 30vh;
-    display: flex;
-    align-items: top;
-
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    }
-    
-
-#perfiles .detalle  ul{
-    list-style: square;
-    font-size: 16px;
-
-}
-
-#perfiles .perfil123 .perfil1{
-    background-image: url(../img/Alicia\(1\).jpg);
-    background-size: cover;
     width: 260px;
-    height: 260px;
-    border-radius: 50%;
+    height: 300px;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
-
-    flex-basis: 260px;
-    max-width: 300px;
-    flex-grow: 1;
-}
-
-#perfiles .perfil123 .perfil2{
-    background-image: url(../img/Daniela.jpg);
-    background-size: cover;
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 20px;
-
-    flex-basis: 260px;
-    max-width: 300px;
-    flex-grow: 1;
-}
-#perfiles  .perfil123   .perfil3{
-    background-image: url(../img/Alejandro.jpg);
-    background-size: cover;
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 20px;
-
-    flex-basis: 260px;
-    max-width: 300px;
-    flex-grow: 1;
-}
-
-#perfiles .detalle{
-    background-color: #e3edf2;
-    padding: 10px;
-    border-radius: 10px;
+    margin-bottom: 0px;
+    border-radius: 15px;
 
     flex-basis: 270px;
-    max-width: 270px;
+    max-width: 250px;
     flex-grow: 1;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
-
-#perfiles .botonderecha{
-    text-align: right;
-}
-
-#perfiles .detalle h5{
-    padding: 5px;
-    font-weight: 600;
-    text-align: center;
-}
-
-#perfiles .botonperfil{
-    background-color: #e3edf2;
-    border: 2px solid #1E88E5 ;
-    color: #1E88E5;
-    border-radius: 7px;
-    padding: 3px 7px;
-    font-weight: 600;   
-    font-size: 14px;
-}
-
-
-
-
-
-
-/* seccion vinculos */
-@keyframes scroll{
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(calc(-250px *3));
-    }
-}
-
-#vinculos .slider{
-    height: auto;
-    overflow: hidden;
-    position: relative;
-    width: 60%;
+#baner {
+    width: 85%;
     margin: 0 auto;
-    border-radius: 15px;
-    background-color: white;
-
-    min-width: 380px;
-
+    border-radius: 10px;
 }
+#baner .contacto{
+    font-family: 'PF Beau Sans Pro';
+    background: linear-gradient( to bottom ,#d3f36b, #4c8e17);
 
-#vinculos .slider .slide-track{
-    animation: scroll 40s linear infinite;
-    display: flex;
-    width: calc(250px * 7 );
-}
-
-#vinculos .slide{
-    padding: 10px;
-}
-
-
-
-#vinculos{
-width: 90%;
-margin: 0 auto;
-}
-
-
-
-#vinculos .seccion {
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    font-weight: 600;
-}
-
-#vinculos .textovinculos{
-    
-    margin: 0 30px;
-    padding: 30px;
-    text-align: justify;
-    margin-top: 30px;
-    text-indent: 25px;
-
-}
-
-/* noticia */
-
-#noticias {
-    width: 90%;
-    margin: 0 auto;
-}
-
-#noticias .seccion {
-    margin-top: 30px;
-    margin-left: 30px;
-    font-weight: 600;
-
-}
-
-
-#noticias .noticia1{
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 30px 0;
-
-    background-color:white;
-    border-radius: 10px;
-}
-
-
-
-#noticias .fotonoticia{
-    background-image: url(../img/noticia1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 380px;
-    height: 280px;
-
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 300px;
-    border-radius: 10px;
-
-}
-
-#noticias .textonoticia1{
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 30px;
-}
-
-
-#noticias .textonoticia1{
-    margin-bottom: 10px;
-
-}
-
-#noticias .fotonoticia2{
-    background-image: url(../img/andolfi.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 380px;
-    height: 280px;
-
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 300px;
-    border-radius: 10px;
-
-}
-
-
-
-#noticias  h5{
-    margin-top: 15px;
-}
-
-
-#noticias .btnnoticias{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#noticias  p span  {
-    background-color: #BDD9F2;
-    color: #555658;
-    margin-top: 10px;
-
-    border-radius: 15px;
-    margin-bottom: 15px;
-    border: none;
-    padding: 5px 15px;
-}
-
-#noticias .btnnoticias :hover{
-    background-color: #88aabf;
-    color: white;
-    content: texto;
-}
-
-
-
-
-
-/* biblioteca */
-
-
-#biblioteca{
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;}
-
-#biblioteca .seccion {
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-#biblioteca .publicaciones123{
-    background-color: whitesmoke;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 0 0 0;
-    max-width: 1200px;
-    min-height: 350px;
-    display: flex;
-    align-items: center;
-
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-grow: 1;
-
-    }
-    
-
-#biblioteca .publicaciones123 .publicacion1{
-    background-image: url(../img/libro.jpg);
-    background-size: cover;
-
-    width: 320px;
-    height: 350px;
-    margin: auto;
-    display: block;
-    margin-bottom: 5px;
+    margin: 30px 0;
+    padding: 0;
     border-radius: 10px;
-
-    flex-basis: 280px;
-    max-width: 450px;
-    flex-grow: 1;
-
+}
+#baner .frase{
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #555658;
+    padding:  20px 0;
+}
+#baner h4 {
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #555658;
+    padding: 0px;
+}
+#baner .frase :hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+    font-weight: 700;
 }
 
-#biblioteca .publicaciones123 .publicacion2{
-    background-image: url(../img/libro.jpg);
-    background-size: cover;
-    width: 320px;
-    height: 350px;
-    margin: auto;
-    display: block;
-    margin-bottom: 5px;
-    border-radius: 10px;
-
-
-    flex-basis: 300px;
-    max-width: 450px;
-    flex-grow: 1;
-}
-#biblioteca  .publicaciones123 .publicacion3{
-    background-image: url(../img/libro.jpg);
-    background-size: cover;
-    width: 320px;
-    height: 350px;
-    margin: auto;
-    display: block;
-    margin-bottom: 5px;
-    border-radius: 10px;
-
-    flex-basis: 300px;
-    max-width: 450px;
-    flex-grow: 1;
-
-}
-
-#biblioteca .detalle{
-    background-color: #BDD9F2;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-
-}
-
-
-
-#biblioteca .boton{
+#baner .frase .frase1 {
     display: flex;
-    justify-content: flex-end;
-  
-    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
 }
-
-
-
-/* fin biblioteca*/
-
-
-/* inicio contacto */
-
-#contacto{
-    width: 100%;
-    margin: 0 auto;
-    padding: 30px  ;
+#baner .frase .frase2 {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 
-    padding: 30px 0 0 0;
-
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 5px 0;
 }
 
-/* inicio footer */
+#baner .datos{
+    background: linear-gradient(to bottom right,#0bb656, #538c51);
+    width: auto;
+    height: auto ;
+    margin:  0;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+#baner .datos :hover{
+    transition: all 300ms;
 
-#piedepagina{
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
+    transform: scale(1.05);
+}
+#baner .icono{
+    margin-right: 20px;
+}
 
-        background-color: #030a8c;
-        color: white;
-        padding: 70px 0 ;
+#baner .datos .dato1 {
+    padding: 10px;
+}
+#baner .datos .dato2 {
+    padding: 10px;
+}
+.prueba{ 
+background: linear-gradient(to bottom right,#d3f36b, #b3d326);
 
-    }
+}
 
 
+#servicios4 {
+    width: 85%;
+    margin: 0 auto;
+}
+#baner2 {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#baner2 .trabajos{
+    font-family: 'PF Beau Sans Pro';
+    background: linear-gradient( to bottom ,#d3f36b, #4c8e17);
 
-    #piedepagina .row{
-        width: 100%;
-
-     flex-wrap: wrap;
-     display: flex;
-     justify-content: space-between;
-        
-    }
-       
-    #piedepagina ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        font-size: 14px;    }
-
-    #piedepagina .footer-col{
-    width: 20%;
-    min-width: 180px;
-    gap: 20px;
-    padding: 0 20px;
-    margin: 20px;           
-    }
-
-    #piedepagina .footer-col h4{
-
-    font-weight: 600;
-    margin-bottom: 30px;
-             
-         }
-
-    #piedepagina .footer-col ul  a{    
-        font-weight: 600;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: white;
-    display: block;
-                     
-    }
-
-    #piedepagina .footer-col ul li :hover{    
-    color: #f2b90c;
-    padding-left: 10px;   
-    font-weight: 600;
-   
-                 
-    
-        }
-       
-   #piedepagina .logoblanco{
-    background-image: url(../img/CIMlogoblanco.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 65px;
+    width: 100%;
     display: flex;
-    
-
-    flex-basis: 250px;
-    max-width: 300px;
-    flex-grow: 1;
-
-    
-
-    margin: 30px;
-    padding: 20px;
-
-   }
-
-
-
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    padding: 0;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+#baner2 h3 {
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #555658;
+}
+#baner2 h6 {
+    color: #555658;
+    font-weight: 800;
+    padding: 0px;
+    text-transform: uppercase;
+}
+#baner2 .frase1{
+    margin-top: 20px;
+}
