@@ -67,8 +67,9 @@ body{
 #servicios{
     width: 85%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding:  0;
     font-family: 'PF Beau Sans Pro';
+    margin-top: 100px;
 }
 
 #servicios .card{
@@ -96,28 +97,28 @@ padding: 0px;
     font-weight: 800;
 }
 
-#servicios .cards .servicio1{
-    background-image: url(../img/produccion.jpg);
+#servicios .card img{
     background-size: cover;
-    background-position: center;
-    width: 260px;
-    height: 300px;
-    margin: auto;
-    display: block;
-    margin-bottom: 0px;
-    border-radius: 15px;
-
-    flex-basis: 270px;
-    max-width: 250px;
-    flex-grow: 1;
-    margin-bottom: 1px;
+    width: auto;
+height: 250px;
+object-fit: cover;
+    transition: all 300ms;
 }
+
+#servicios .card img :hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+
+
 
 /* baner 1*/
 #baner {
     width: 85%;
     margin: 0 auto;
     border-radius: 10px;
+    margin-top: 100px;
 }
 #baner .contacto{
     font-family: 'PF Beau Sans Pro';
@@ -136,14 +137,13 @@ padding: 0px;
 #baner .frase{
     color: white;
     font-weight: 700;
-    text-shadow: 2px 2px 2px #555658;
+    text-shadow: 2px 1px 1px #555658;
     padding:  20px 0;
 }
 #baner h4 {
     color: white;
     font-weight: 700;
-    text-shadow: 2px 2px 2px #555658;
-    padding: 0px;
+    text-shadow: 2px 1px 1px #555658;
 }
 #baner .frase :hover{
     transform: scale(1.05);
@@ -179,39 +179,29 @@ padding: 0px;
     transform: scale(1.05);
 }
 #baner .icono{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #baner .datos .dato1 {
     padding: 10px;
     text-decoration: none;
 }
-#baner .datos .dato2 {
+#baner  .dato2 {
     padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-
-
-
-
-
-
-
 .prueba{ 
 background: linear-gradient(to bottom right,#d3f36b, #b3d326);
 background: linear-gradient(to bottom right,#0bb656, #538c51);
-
 }
-
 
 #servicios4 {
     width: 85%;
     margin: 0 auto;
 }
-
 
 /* baner 2*/
 
@@ -219,7 +209,9 @@ background: linear-gradient(to bottom right,#0bb656, #538c51);
     width: 85%;
     margin: 0 auto;
     border-radius: 10px;
+    margin-top: 100px;
 }
+
 #baner2 .trabajos{
     font-family: 'PF Beau Sans Pro';
     background: linear-gradient( to bottom ,#d3f36b, #4c8e17);
