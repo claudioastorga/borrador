@@ -79,6 +79,10 @@ body{
     background-color: #b3d326;
     border-radius: 5px;
     text-align: left;
+    align-items: center;
+    color: #0d120e;
+    display: flex;
+    align-items: center;
 }
 
 #servicios .card-title{
@@ -106,10 +110,10 @@ padding: 0px;
     flex-basis: 270px;
     max-width: 250px;
     flex-grow: 1;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
-/* servicios*/
+/* baner 1*/
 #baner {
     width: 85%;
     margin: 0 auto;
@@ -180,10 +184,22 @@ padding: 0px;
 
 #baner .datos .dato1 {
     padding: 10px;
+    text-decoration: none;
 }
 #baner .datos .dato2 {
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+
+
+
+
+
+
+
 .prueba{ 
 background: linear-gradient(to bottom right,#d3f36b, #b3d326);
 background: linear-gradient(to bottom right,#0bb656, #538c51);
